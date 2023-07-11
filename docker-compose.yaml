@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "utkarshpathak/portfolio-website:latest"
+    ports:
+      - "80:80"
